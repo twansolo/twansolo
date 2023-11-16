@@ -1,0 +1,105 @@
+
+Host arreya-docker
+    HostName ec2-52-4-62-109.compute-1.amazonaws.com
+    User ubuntu
+    IdentityFile ~/.ssh/ArreyaProduction.pem 
+
+Host arreya-monitoring
+    HostName ec2-54-145-97-102.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-haproxy
+    HostName ec2-52-4-240-32.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+   
+Host arreya-errors
+    HostName ec2-18-232-122-181.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-encoder
+    HostName ec2-52-90-243-8.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-admin
+    HostName ec2-34-224-125-218.compute-1.amazonaws.com
+    User ubuntu
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-media
+    HostName ec2-54-147-169-179.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-data
+    HostName ec2-3-87-31-170.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-haproxy
+    HostName ec2-52-4-191-164.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-haproxy02
+    HostName ec2-52-4-240-32.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-voip
+    HostName ec2-52-5-18-181.compute-1.amazonaws.com
+    User ubuntu
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-bastion
+    HostName ec2-18-234-43-209.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-api01
+    Hostname ec2-3-85-176-190.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-api02
+    Hostname ec2-54-196-59-94.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-api03
+    Hostname ec2-3-84-183-33.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-api04
+    Hostname ec2-54-224-103-223.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-api05
+    Hostname ec2-54-226-137-51.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-api06
+    Hostname ec2-54-157-204-171.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-web01
+    Hostname ec2-107-22-4-154.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+Host arreya-web02
+    Hostname ec2-52-200-50-1.compute-1.amazonaws.com
+    User ec2-user
+    IdentityFile ~/.ssh/ArreyaProduction.pem
+
+
+Host gitlab.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519.pub
